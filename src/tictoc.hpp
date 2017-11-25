@@ -1,7 +1,5 @@
 #pragma once
 
-enum
-
 #ifdef ESP8266
 #include <functional>
 #define TICTOC_SIGNATURE std::function<unsigned long()> timefunc

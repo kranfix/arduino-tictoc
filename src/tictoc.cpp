@@ -1,6 +1,6 @@
-#include "tictoc.h"
+#include "tictoc.hpp"
 
-Tictoc::Tictoc():timefunc(timefuc){
+Tictoc::Tictoc(TICTOC_SIGNATURE):timefunc(timefunc){
 
 }
 

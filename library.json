@@ -1,0 +1,16 @@
+{
+  "name": "Tictoc",
+  "keywords": "time, matlab tictoc, tic-toc",
+  "description": "A library to manage time intervals like MatLab Tic-Toc.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kranfix/arduino-tictoc.git"
+  },
+  "version": "0.2",
+  "examples": "examples/*/*.ino",
+  "frameworks": "arduino",
+  "platforms": [
+    "atmelavr",
+    "espressif"
+  ]
+}
