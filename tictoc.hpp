@@ -4,15 +4,16 @@
 #include <functional>
 #define TICTOC_SIGNATURE std::function<unsigned long()> timefunc
 #else
-#define TICTOC_SIGNATURE unsigned long (*timefunc)()
+#define TICTOC_SIGNATURE unsigned long(*timefunc)()
 #endif
 
 class Tictoc {
   unsigned long now;
   unsigned long last;
-  TICTOC_SIGNATURE
+  TICTOC_SIGNATURE;
 public:
-  tictoc(TICTOC_SIGNATURE);
+  Tictoc(TICTOC_SIGNATURE);
+  //Tictoc();
   void tic();
   unsigned long toc();
-}
+};
